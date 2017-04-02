@@ -12,8 +12,8 @@ var canPassThroughCorners = false;
 //This will also switch from Manhattan to Euclidean distance measures
 var allowDiagonals = true;
 
-var cols = 500;
-var rows = 500;
+var cols = 100;
+var rows = 100;
 var w = cols + 200;
 var h = rows + 200;
 
