@@ -68,7 +68,7 @@ function SettingBox(label, x, y, isSet, callback) {
         ellipse(this.x + 10, this.y + 10, 20, 20);
         if (this.isSet) {
             fill(0);
-            ellipse(this.x + 10, this.y + 10, 3, 3);
+            ellipse(this.x + 10, this.y + 10, 15, 15);
         }
         fill(0);
         noStroke();
@@ -157,6 +157,10 @@ var pathfinder;
 var status = "";
 var stepsAllowed = 0;
 var runPauseButton;
+
+function nodefinder(){
+
+}
 
 function initaliseSearchExample(rows, cols) {
     mapGraphic = null;
