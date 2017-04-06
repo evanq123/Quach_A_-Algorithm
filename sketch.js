@@ -189,7 +189,7 @@ function setup() {
     uiElements.push(runPauseButton);
     uiElements.push(new Button("step", w + 20, 70, 50, 30, step));
     uiElements.push(new Button("restart", w + 20, 120, 50, 30, restart));
-    uiElements.push(new SettingBox("AllowDiag", w + 20, 180, allowDiagonals, toggleDiagonals));
+    uiElements.push(new SettingBox("AllowDiag", w + 50, 180, allowDiagonals, toggleDiagonals));
 
     recordTime("Setup");
 }
