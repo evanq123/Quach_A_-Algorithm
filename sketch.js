@@ -174,7 +174,7 @@ function initaliseSearchExample(rows, cols) {
 
 function setup() {
     startTime();
-    createCanvas(w + 100, h + 100)
+    createCanvas(w + 200, h + 100)
     /*if (getURL().toLowerCase().indexOf("fullscreen") === -1) {
         createCanvas(600, 600);
     } else {
