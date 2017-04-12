@@ -14,8 +14,8 @@ var allowDiagonals = true;
 
 var cols = 150;
 var rows = 150;
-var w = cols + 200;
-var h = rows + 200;
+var w = cols + 100;
+var h = rows + 100;
 
 // % of cells that are walls
 var percentWalls = (allowDiagonals ? (canPassThroughCorners ? 0.4 : 0.3) : 0.2);
