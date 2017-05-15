@@ -1,4 +1,4 @@
-// Evan Quach
+// Evan Quach:testing update
 
 //Set to true to allow diagonal moves
 //This will also switch from Manhattan to Euclidean distance measures
@@ -158,13 +158,13 @@ var status = "";
 var stepsAllowed = 0;
 var runPauseButton;
 
-function nodefinder(){
+function nodefinder() {
 
 }
 
 function initaliseSearchExample(rows, cols) {
     mapGraphic = null;
-    gamemap = new MazeMap(cols, rows, 10, 10, w , h, allowDiagonals, percentWalls); //x,y,w,h
+    gamemap = new MazeMap(cols, rows, 10, 10, w, h, allowDiagonals, percentWalls); //x,y,w,h
     start = gamemap.grid[0][0];
     end = gamemap.grid[cols - 1][rows - 1];
     start.wall = false;
